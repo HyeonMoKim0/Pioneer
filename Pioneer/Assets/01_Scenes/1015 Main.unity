@@ -1961,6 +1961,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269502308}
   m_CullTransparentMesh: 1
+--- !u!1001 &273228921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 995074121469979980, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176925749242498615, guid: 7a2afc9a159a3fe4489b07af1b87cb04,
+        type: 3}
+      propertyPath: m_Name
+      value: LightDot_Effect_
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a2afc9a159a3fe4489b07af1b87cb04, type: 3}
 --- !u!1 &274556129
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,37 +4472,37 @@ MonoBehaviour:
   reward:
   - reward:
       id: 30001
-      amount: 6
+      amount: 4
       duability: 0
       isUseCoroutineEnd: 0
-    weight: 0.1
+    weight: 0.4
   - reward:
       id: 30006
-      amount: 6
+      amount: 1
       duability: 0
       isUseCoroutineEnd: 0
     weight: 0.1
   - reward:
       id: 30014
-      amount: 6
+      amount: 1
       duability: 0
       isUseCoroutineEnd: 0
-    weight: 0.3
+    weight: 0.1
   - reward:
       id: 30015
-      amount: 6
+      amount: 2
       duability: 0
       isUseCoroutineEnd: 0
-    weight: 0.3
+    weight: 0.2
   - reward:
       id: 30016
-      amount: 3
+      amount: 1
       duability: 0
       isUseCoroutineEnd: 0
     weight: 0.1
   - reward:
       id: 30017
-      amount: 3
+      amount: 1
       duability: 0
       isUseCoroutineEnd: 0
     weight: 0.1
@@ -16175,23 +16243,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropItemTable:
   - itemData: {fileID: 11400000, guid: 2f3e674e1365bec4e8cb2a25e0f18762, type: 2}
-    dropProbability: 0.3
+    dropProbability: 0.335
   - itemData: {fileID: 11400000, guid: 870d647744a32dd4f93441c5aea4e8eb, type: 2}
     dropProbability: 0.15
   - itemData: {fileID: 11400000, guid: f32955ee9c05fff46ba275e6367a87e1, type: 2}
     dropProbability: 0.15
   - itemData: {fileID: 11400000, guid: 732df024ec85cec488bca87b76650e61, type: 2}
-    dropProbability: 0.1
+    dropProbability: 0.13
   - itemData: {fileID: 11400000, guid: b2d74b7b5e01fc643924cc0e8448b2c7, type: 2}
     dropProbability: 0.075
   - itemData: {fileID: 11400000, guid: 3135c1dac455ed649b4403857f56ac2c, type: 2}
-    dropProbability: 0.0525
+    dropProbability: 0.05
   - itemData: {fileID: 11400000, guid: 9ba2c5625c2bafa40949b41591f13b3e, type: 2}
-    dropProbability: 0.0525
+    dropProbability: 0.05
   - itemData: {fileID: 11400000, guid: de4353f2126fa884b9e9dbceea4fd8f5, type: 2}
-    dropProbability: 0.06
+    dropProbability: 0.03
   - itemData: {fileID: 11400000, guid: 61c371c8ed6b1854f8e21e59f7c92dd3, type: 2}
-    dropProbability: 0.06
+    dropProbability: 0.03
   treasureItem: {fileID: 11400000, guid: de4353f2126fa884b9e9dbceea4fd8f5, type: 2}
 --- !u!114 &3084641568206959095
 MonoBehaviour:
@@ -22199,7 +22267,6 @@ MonoBehaviour:
   material2eaText: {fileID: 1639034610}
   material3eaText: {fileID: 1245556898}
   craftLore: {fileID: 1330261395}
-  pivotItem: {fileID: 0}
   startPos: {x: 0, y: 0, z: 0}
   xTerm: 200
   yTerm: -200
@@ -27649,6 +27716,7 @@ SceneRoots:
   - {fileID: 3401060059445474158}
   - {fileID: 2346539483452467573}
   - {fileID: 1083285237}
+  - {fileID: 273228921}
   - {fileID: 860495885}
   - {fileID: 5006512736487884390}
   - {fileID: 1715454870}
