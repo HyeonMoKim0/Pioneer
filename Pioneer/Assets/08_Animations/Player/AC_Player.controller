@@ -235,7 +235,7 @@ AnimatorStateMachine:
     m_Position: {x: 490, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6259311814589167367}
-    m_Position: {x: 740, y: 220, z: 0}
+    m_Position: {x: 790, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8229829237856413396}
     m_Position: {x: -120, y: 120, z: 0}
@@ -790,7 +790,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Run
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5175211505165271380}
