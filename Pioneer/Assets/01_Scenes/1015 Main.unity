@@ -20381,7 +20381,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 0
     m_RotationOrder: 4
-  dayDuration: 2000
+  dayDuration: 10
   nightDuration: 20
   spawnPoints:
   - {fileID: 0}
@@ -25996,6 +25996,7 @@ MonoBehaviour:
   installTimeSec: 3
   ringBackground: {fileID: 1549456458}
   ringFill: {fileID: 1517500650}
+  cellSizeByType: []
 --- !u!1001 &8526916259828762702
 PrefabInstance:
   m_ObjectHideFlags: 0
